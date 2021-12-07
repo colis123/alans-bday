@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(42, 72, 243);
+}
+
+body {
+  font-family: "Signika", sans-serif;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+  padding: 1rem 1rem;
+  background-image: url("./images/background.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: rgb(27, 25, 25);
+}
+
+img {
+  width: 85vw;
+  box-shadow: 0 30px 40px rgba(0, 0, 0, 0.1);
+}
+
+.birthday {
+  display: grid;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+
+  img {
+    width: 50vw;
+    margin-right: 1rem;
+  }
+}
